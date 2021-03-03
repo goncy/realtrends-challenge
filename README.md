@@ -3,7 +3,7 @@
 # RealTrends challenge
 Se debe crear una aplicación de votación realtime.
 
-# API
+## API
 * Debe exponer un servidor de websocket al que se pueda subscribir.
 * Debe emitir eventos cuando haya votos nuevos.
 
