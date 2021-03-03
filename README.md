@@ -1,4 +1,4 @@
-![RealTrends](./src/assets/logo.svg "RealTrends")
+![RealTrends](./logo.svg "RealTrends")
 
 # RealTrends challenge
 Se debe crear una aplicación de votación realtime.
