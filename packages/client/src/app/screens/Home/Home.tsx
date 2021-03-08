@@ -1,10 +1,17 @@
 import * as React from "react";
+import SocketIO from "socket.io-client";
 
 import logo from "~/assets/logo.svg";
 
 import styles from "./Home.module.scss";
 
+const socket = SocketIO.io("http://localhost:5000");
+
 const Home: React.FC = () => {
+  React.useEffect(() => {
+    socket.on("ping", (message: string) => console.log(message));
+  }, []);
+
   return (
     <main className={styles.container}>
       <header className={styles.header}>
