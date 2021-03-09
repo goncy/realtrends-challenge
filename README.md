@@ -21,6 +21,8 @@ Se debe crear una aplicación de votación realtime.
 * El usuario puede seleccionar los productos desde el cliente viendo un modal con productos de Mercado Libre.
 * La votación se puede pausar, reanudar y reiniciar desde el cliente.
 
+![Spec](./spec.png)
+
 ## Correr el proyecto
 ```bash
 ## Instalar las dependencias del proyecto
