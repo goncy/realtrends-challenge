@@ -14,7 +14,6 @@ Se debe crear una aplicación de votación realtime.
 * Cada usuario puede votar una vez, si vota más de una, el voto se transfiere.
 
 ## Definiciones técnicas
-* La aplicación debe estar publicada y debe ser accesible mediante un link.
 * El código de la aplicación debe estar subida a un repositorio de público acceso.
 
 ## Puntos extra
